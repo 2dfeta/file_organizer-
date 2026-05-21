@@ -1,0 +1,112 @@
+{
+  "general": {
+    "target_directory": "C:\\Users\\admin\\Downloads",
+    "enable_scheduling": true,
+    "schedule_time": "20:00",
+    "dry_run": false,
+    "enable_logging": true,
+    "log_file": "./logs/file_organizer.log"
+  },
+  "exclude": {
+    "folders": [
+      ".venv",
+      "node_modules",
+      "__pycache__",
+      ".git",
+      "System Volume Information"
+    ],
+    "files": [
+      "Thumbs.db",
+      ".DS_Store",
+      "desktop.ini"
+    ]
+  },
+  "file_categories": {
+    "Documents": {
+      "extensions": [
+        ".pdf",
+        ".docx",
+        ".doc",
+        ".txt",
+        ".xlsx",
+        ".xls",
+        ".pptx",
+        ".ppt",
+        ".odt",
+        ".csv",
+        ".json",
+        ".xml"
+      ],
+      "description": "Word documents, PDFs, and other text files"
+    },
+    "Images": {
+      "extensions": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".bmp",
+        ".svg",
+        ".webp",
+        ".ico",
+        ".tiff"
+      ],
+      "description": "Image files (photos, graphics, etc.)"
+    },
+    "Media": {
+      "extensions": [
+        ".mp3",
+        ".mp4",
+        ".mkv",
+        ".mov",
+        ".avi",
+        ".flv",
+        ".wav",
+        ".aac",
+        ".flac",
+        ".m4a"
+      ],
+      "description": "Audio and video files"
+    },
+    "Archives": {
+      "extensions": [
+        ".zip",
+        ".rar",
+        ".tar.gz",
+        ".7z",
+        ".tar",
+        ".gz",
+        ".bz2"
+      ],
+      "description": "Compressed archives"
+    },
+    "Applications": {
+      "extensions": [
+        ".exe",
+        ".msi",
+        ".app",
+        ".dmg",
+        ".apk",
+        ".deb"
+      ],
+      "description": "Executable files and installers"
+    },
+    "Code": {
+      "extensions": [
+        ".py",
+        ".js",
+        ".ts",
+        ".java",
+        ".cpp",
+        ".c",
+        ".html",
+        ".css",
+        ".php",
+        ".rb",
+        ".go",
+        ".rs"
+      ],
+      "description": "Source code files"
+    }
+  }
+}
