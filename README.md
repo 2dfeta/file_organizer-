@@ -283,4 +283,4 @@ Potential features for future versions:
 
 ---
 
-**Made with ❤️ for organizing your digital life**
+**2dfeta Made with ❤️ for organizing your digital life**
